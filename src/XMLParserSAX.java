@@ -31,7 +31,7 @@ public class XMLParserSAX {
         try {
             SAXParser saxParser = saxParserFactory.newSAXParser();
             MyHandler handler = new MyHandler();
-            saxParser.parse(new File("semester_1.xml"), handler);
+            saxParser.parse(new File(path+".xml"), handler);
             //παίρνει την Courses list από την κλάση MyHandler .Αυτή περιέχει κενά αντικείμενα
             List<Course> crsList = handler.getCourseList();
             //δημιουργία της λίστας με τα courses.Εδώ θαμπουν τα έγκυρα δεδομένα, δηλ. τα μη κενά αντικείμενα

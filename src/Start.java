@@ -9,8 +9,13 @@
 public class Start {
 
     public static  void main(String[] args){
+        try{
         File file=new File();
-        file.setXml("semester_1");
-        file.writeToFile("πεδία");
+        file.setXml(args[0]);
+        file.writeToFile(args[1]);
+    }
+        catch (Exception e){
+           e.printStackTrace();
+        }
     }
 }
