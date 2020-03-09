@@ -13,7 +13,7 @@ import java.util.List;
  * xml και το αρχείο με τα πεδία περιγραφής μαθήματος που είναι προς έλεγχο. Επίσης υλοποιεί την
  * έξοδο των αποτελεσμάτων σε αρχείο.
  */
-public class manageFiles {
+public class FileΜanager {
 
     private XMLParserSAX parser;//αντικείμενο της κλάσης parser στο οποίο περνάμε το μονοπάτι του αρχείο εισόδου xml για την SAX ανάλυσή του.
     private String xml;//το μονοπάτι προς το αρχείο xml

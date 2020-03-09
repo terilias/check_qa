@@ -25,9 +25,9 @@ public class Start {
      */
     public static void main(String[] args) {
         try {
-            manageFiles manageFiles = new manageFiles();
-            manageFiles.setXml(args[0]);
-            manageFiles.writeToFile(args[1]);
+            FileΜanager FileΜanager = new FileΜanager();
+            FileΜanager.setXml(args[0]);
+            FileΜanager.writeToFile(args[1]);
         } catch (Exception e) {
             e.printStackTrace();
         }
