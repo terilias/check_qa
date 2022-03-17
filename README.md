@@ -1,6 +1,7 @@
 # check_qa
-   Εφαρμογή ελέγχου των σελίδων περιγραφής μαθημάτων, όπως αυτά παρουσιάζονται στον ιστότοπο  της Μονάδας Διασφάλισης Ποιότητας του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης: https://qa.auth.gr/ 
-  
+   *This command line tool, written in Java it is used for finding omitted informations from course description in the offered courses webpages by Aristotle University of Thessaloniki departments. Analyzing XML files that are generated from DeiXTo, an open source web data extraction tool, **check_qa** finds missed informations about the specific course (e.g. prerequisites and course contents). The results are exporting to a text file for informing secretariats of departments about the informations must be added to descriptions of the courses.*
+
+   Εφαρμογή ελέγχου των σελίδων περιγραφής μαθημάτων, όπως αυτά παρουσιάζονται στον ιστότοπο  της Μονάδας Διασφάλισης Ποιότητας του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης: https://qa.auth.gr/  
   
   Το παρόν  project έγινε στο πλαίσιο του μαθήματος "Τεχνολογία Λογισμικού" (5ο εξάμηνο) του προπτυχιακού προγράμματος σπουδών του τμήματος Πληροφορικής Α.Π.Θ.
   Ο σκοπός της εφαρμογής είναι να υποδεικνύει στο προσωπικό του τμήματος ποιά μαθήματα έχουν ελλείψεις στις περιγραφές τους, ώστε να ενημερώνονται οι υπεύθυνοι των μαθημάτων και να συμπληρώνουν την περιγραφή τους.
